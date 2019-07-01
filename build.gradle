@@ -2,7 +2,6 @@ buildscript {
 	repositories {
 		maven { url "https://repo.spring.io/plugins-release" }
 	}
-	
 	dependencies {
 		classpath("io.spring.gradle:propdeps-plugin:0.0.9.RELEASE")
 		classpath("org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.16")
@@ -282,6 +281,7 @@ configure(rootProject) {
 		testCompile("org.aspectj:aspectjweaver:${aspectjVersion}")
 		testCompile("org.hsqldb:hsqldb:${hsqldbVersion}")
 		testCompile("org.hibernate:hibernate-core:5.1.17.Final")
+		testCompile(project(":spring-ab"))
 	}
 
 	artifacts {
