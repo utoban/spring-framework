@@ -5,10 +5,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 
-
 @ComponentScan("com.atguigu")
 @Configuration
-public class ExtConfig {
+public class ExtConfig  {
 	
 	@Bean
 	public Blue blue(){

@@ -10,6 +10,8 @@ gradlew :spring-oxm:compileTestJava
 
 gradlew :spring-ab:compileTestJava
 
+gradlew :spring-ab:compileJava
+
 gradlew :spring-messaging:compileTestJava
 gradlew :spring-websocket:compileJava
 
