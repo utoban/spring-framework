@@ -596,6 +596,8 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 		}
 
 		// Initialize any placeholder property sources in the context environment.
+		//初始化一些属性设置;子类自定义个性化的属性设置方法；
+		//设置BeanFactory的类加载器、支持表达式解析器...
 		initPropertySources();
 
 		// Validate that all properties marked as required are resolvable:

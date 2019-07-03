@@ -1,5 +1,6 @@
-package com.atguigu;
+package com.atguigu.ext;
 
+import com.atguigu.bean.Blue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
