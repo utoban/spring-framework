@@ -15,6 +15,8 @@ gradlew :spring-ab:compileJava
 gradlew :spring-messaging:compileTestJava
 gradlew :spring-websocket:compileJava
 
+gradlew :spring-aspects:compileJava
+
 导入 idea注意事项
 https://github.com/spring-projects/spring-framework/blob/master/import-into-idea.md
 

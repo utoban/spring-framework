@@ -4,9 +4,12 @@ dependencies {
 	compile(project(":spring-beans"))
 	compile(project(":spring-core"))
 	compile(project(":spring-context"))
+	//optional(project(":spring-aspects"))
 
 	optional("junit:junit:4.12")
-/*	optional("org.aspectj:aspectjweaver:${aspectjVersion}")
+    optional("org.aspectj:aspectjweaver:${aspectjVersion}")
+	optional("javax.annotation:javax.annotation-api:1.3.2")
+	optional("javax.inject:javax.inject:1")
 	optional("org.apache.commons:commons-pool2:2.6.0")
-	optional("com.jamonapi:jamon:2.81")*/
+	optional("com.jamonapi:jamon:2.81")
 }
