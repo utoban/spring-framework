@@ -130,7 +130,7 @@ Spring容器的refresh()【创建刷新】;
 						 	4）、【执行后置处理器初始化之后】applyBeanPostProcessorsAfterInitialization
 						 		BeanPostProcessor.postProcessAfterInitialization()；
 						 5）、注册Bean的销毁方法；
-					5）、将创建的Bean添加到缓存中singletonObjects；
+					5）、将创建的Bean添加到缓存中singletonObjects；  DefaultSingletonBeanRegistry getSingleton(String beanName, ObjectFactory<?> singletonFactory)
 				ioc容器就是这些Map；很多的Map里面保存了单实例Bean，环境信息。。。。；
 		所有Bean都利用getBean创建完成以后；
 			检查所有的Bean是否是SmartInitializingSingleton接口的；如果是；就执行afterSingletonsInstantiated()；

@@ -11,7 +11,7 @@ public class IOCTest_Ext {
 	@Test
 	public void test01(){
 		AnnotationConfigApplicationContext applicationContext  = new AnnotationConfigApplicationContext(ExtConfig.class);
-		applicationContext.publishEvent(new ApplicationEvent(new String("111") ) {
+		applicationContext.publishEvent(new ApplicationEvent(new String("发布事件") ) {
 			private static final long serialVersionUID = 1L;
 		});
 		
